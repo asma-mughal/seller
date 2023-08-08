@@ -50,12 +50,13 @@ const Sidebar = () => {
 
           </li> 
           <li>
-            <Link to="">            
+            <Link to="/users/zoom">            
             <DuoIcon className="icon" />
-            <span>Google Meet</span>
+            <span>Zoom </span>
             </Link>
 
-          </li>         
+          </li>   
+             
           <p className="title">USER</p>
           <li>
             <AccountCircleOutlinedIcon className="icon" />

@@ -13,6 +13,7 @@ import Kanban from './pages/Kanban/Kanban';
 import GoogleCalendar from './components/google/Calendar';
 import PageCalendar from './pages/Calendar/PageCalendar';
 import TextEditor from './pages/TextEditor/TextEditor';
+import Newfolder from './pages/Zoom/Newfolder';
 
 function App() {
   const {darkMode} = useContext(DarkModeContext)
@@ -30,7 +31,8 @@ function App() {
             <Route path=":userId/edit" element={<TextEditor />} />
             <Route path="kanban" element={<Kanban />} />
             <Route path='calendar'  element={<PageCalendar />}/>
-          </Route>
+            <Route path='zoom'  element={<Newfolder />}/>
+          </Route> 
         </Route>
       </Routes>
     </BrowserRouter>

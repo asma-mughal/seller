@@ -17,9 +17,6 @@ const Featured = () => {
     <div className="bottom">
       <div className="featuredChart">
         <CircularProgressbar value={70} text={"70%"} strokeWidth={5} 
-         styles={{
-          color:'red'
-         }}
         />
       </div>
       <p className="title">Total RFPs received</p>
